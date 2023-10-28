@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tsc && node dist"
+    "dev": "tsc && node dist",
+    "build": "tsc",
+    "start": "node dist"
   },
   "keywords": [],
   "author": "",
